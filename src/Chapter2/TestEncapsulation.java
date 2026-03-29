@@ -16,15 +16,18 @@ package Chapter2;
  *
  * @author Zinabu H. zinabuscholar@gmail.com
  */
-public class TestEmployee {
+public class TestEncapsulation {
     public static void main(String[] args) {
-        Employee e1=new Employee();
+        Encapsulation e1=new Encapsulation();
        
         e1.name="Zinabu";
         System.out.println("The name of the employee e1 is :"+e1.name);
-        e1.age=23;
+       // e1.age=23; //Illegal Trying to access private instance variable
+        e1.setAge(23);
+        System.out.println("Employee age is :"+e1.getAge());
         e1.salary=15000;
         e1.outputDetails();
+        
     }  
 
     
