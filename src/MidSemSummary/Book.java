@@ -13,7 +13,7 @@ package MidSemSummary;
  *
  * @author Zinabu H. zinabuscholar@gmail.com
  */
-// Task 10: Making the class abstract as per Hard Question 10
+// Task 10: Making the class abstract Task 10
 public abstract class Book {
     // Task 1 & 8: Private attributes and static variable
     private String title;
